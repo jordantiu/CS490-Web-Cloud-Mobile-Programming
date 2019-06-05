@@ -1,9 +1,8 @@
-# CS490-Web-Cloud-Mobile-Programming
+# CS490-Web-Cloud-Mobile-Programming Links
 
-# DeepLearning_Lab3
-
-## I. Introduction
+## I. Module 1: Web/Cloud Programming
 
 The purpose of this programming lab is to demonstrate the use and creation of different kinds of neural network models. These models are created from different datasets and can be used to make predictions on new sets of data.
  
- ## II. Objectives.
+ ## II. Module 2: Mobile/Cloud Programming
+ 
