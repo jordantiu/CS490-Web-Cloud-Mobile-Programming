@@ -1,6 +1,6 @@
 # CS490-Web-Cloud-Mobile-Programming Wiki Links
 
-Below are the links to 
+Below are the links to the respective wiki pages.
 
 ## I. Module 1: Web/Cloud Programming
 
