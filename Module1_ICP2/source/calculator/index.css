@@ -1,0 +1,68 @@
+.calc {
+  width: 385px;
+  height: 540px;
+  background: #2ecc71;
+  margin-top: 60px;
+  padding: 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.52), 0 2px 5px rgba(0, 0, 0, 0.54);
+  *zoom: 1;
+}
+.calc #logo {
+  text-align: left;
+  margin: 10px;
+  font-weight: 600;
+  color: #eee;
+}
+.calc .screen {
+  width: 96%;
+  height: 70px;
+  background: #ecf0f1;
+  margin: 10px auto;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.32), 0 1px 2px rgba(0, 0, 0, 0.34);
+}
+.calc .screen p {
+  font-size: 20px;
+  color: #555;
+  text-align: right;
+  margin-right: 10px;
+}
+.calc .screen #equation {
+  font-size: 15px;
+}
+.calc .screen #number {
+  font-size: 25px;
+}
+.calc .buttons {
+  width: 96%;
+  height: 400px;
+  margin: 10px auto;
+  border-radius: 4px;
+}
+.calc .buttons .button {
+  background: #27ae60;
+  float: left;
+  margin: 6px 9px;
+  height: 70px;
+  width: 70px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.32), 0 1px 2px rgba(0, 0, 0, 0.34);
+  font-size: 40px;
+  font-weight: 400;
+  color: #f9f9f9;
+  text-align: center;
+  padding-top: 8px;
+}
+.calc .buttons .button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+}
+.calc .buttons .op {
+  margin-left: 25px;
+}
+.calc .buttons .clear {
+  float: none;
+  clear: both;
+  width: 95%;
+  margin: 0 auto;
+}
