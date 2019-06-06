@@ -1,0 +1,86 @@
+@backColor: #2ecc71;
+@buttonsColor: #27ae60;
+@screenColor: #ecf0f1;
+@shadow: 0 1px 3px rgba(0,0,0,0.32), 0 1px 2px rgba(0,0,0,0.34);
+@shadowb: 0 2px 5px rgba(0,0,0,0.52), 0 2px 5px rgba(0,0,0,0.54);
+@shadowh: 0 1px 1px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24);
+
+
+.calc {
+	width:385px;
+	height:540px;
+	background: @backColor;
+	margin-top: 60px;
+	padding:0;
+	border-radius: 4px;
+	box-shadow: @shadowb;
+	*zoom: 1;
+
+#logo{
+	text-align: left;
+	margin: 10px;
+	font-weight: 600;
+	color: #eee;
+}
+.screen {
+	width:96%;
+	height:70px;
+	background: @screenColor;
+	margin:10px auto;
+	border-radius: 4px;
+	box-shadow: @shadow;
+
+	p { font-size: 20px;
+		color:#555;
+		text-align: right;
+		margin-right: 10px;
+	}
+
+	#equation {
+		font-size: 15px;
+	}
+
+	#number {
+		font-size: 25px;
+	}
+}
+
+.buttons {
+	width:96%;
+	height:400px;
+	margin:10px auto;
+	border-radius: 4px;
+
+	.button {
+	background: @buttonsColor;
+	float:left;
+	margin: 6px 9px;
+	height: 70px;
+	width: 70px;
+	box-shadow: @shadow;
+	font-size: 40px;
+	font-weight: 400;
+	color: #f9f9f9;
+	text-align: center;
+	padding-top: 8px;
+	
+	&:hover{
+		box-shadow: @shadowh;
+		cursor: pointer;
+	}
+
+	}
+
+	.op {
+	margin-left:25px;
+	}
+
+	.clear {
+	float:none;
+	clear:both;
+	width:95%;
+	margin:0 auto;
+	}	
+}
+}
+
