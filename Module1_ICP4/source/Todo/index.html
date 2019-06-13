@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="angularTodo">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo in Angular.js</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,400italic,500' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/21be5f2318.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="todo.js"></script>
+    <script src="lib/angular/angular.js"></script>
+</head>
+<body ng-controller="angularTodoCtrl">
+
+<div class="container">
+    <div class="todo-list">
+        <div class="todo-list__head">
+            <h1>TODO LIST</h1>
+
+                <ul class="todo-list__items">
+                    <li ng-repeat="item in items" id="item{{items.indexOf(item) + 1}}">{{item}}
+                        <span>{{items.indexOf(item) + 1}}</span>
+                        <div class="todo-list-item__complete" ng-click="completeItem(items.indexOf(item) + 1)">
+                            <img src="images/check.png">
+                        </div>
+                        <div class="todo-list-item__trash" ng-click="deleteItem(items.indexOf(item) + 1)">
+                            <img src="images/delete.png">
+                        </div>
+                    </li>
+                </ul>
+
+            <div class="todo-list-head__text-input">
+                <label>Add new item:
+                    <input ng-model="newItem" id="newItem">
+                </label>
+                <button ng-click="submitNewItem()">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
