@@ -10,9 +10,13 @@ Tetyana O Anisimova: https://github.com/tanyaanisimova/490-web-mobile
 
 ## I. Module 1: Web/Cloud Programming
 
-ICP1: https://github.com/jordantiu/CS490-Web-Cloud-Mobile-Programming/wiki/Module-1:-ICP1
+ICP1: https://github.com/jordantiu/CS490-Web-Cloud-Mobile-Programming/tree/master/Module1_ICP1
 
-ICP2: https://github.com/jordantiu/CS490-Web-Cloud-Mobile-Programming/wiki/Module-1:-ICP2
+ICP2: https://github.com/jordantiu/CS490-Web-Cloud-Mobile-Programming/tree/master/Module1_ICP2
+
+ICP3: https://github.com/jordantiu/CS490-Web-Cloud-Mobile-Programming/tree/master/Module1_ICP3/Source
+
+ICP4: https://github.com/jordantiu/CS490-Web-Cloud-Mobile-Programming/tree/master/Module1_ICP4
  
  ## II. Module 2: Mobile/Cloud Programming
  
