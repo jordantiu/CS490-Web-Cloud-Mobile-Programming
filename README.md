@@ -2,7 +2,7 @@
 
 Below are the links to the respective wiki pages.
 
-###Team 1 Members:
+### Team 1 Members:
 
 Matthew Jones: https://github.com/MRJones88/Comp-Sci490
 
