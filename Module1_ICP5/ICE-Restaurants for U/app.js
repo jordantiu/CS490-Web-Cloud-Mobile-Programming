@@ -33,10 +33,10 @@ angular.module('myApp', [])
                         data.response.venues.forEach(function (venue) {
 
                             //location contains values for city, state, and postalCode(Zip Code)
-                            location = venue.location.address + ", " + venue.location.city + ", " + venue.location.state + ", " + venue.location.postalCode;
+                            location = venue.location.city + ", " + venue.location.state + " " + venue.location.postalCode;
 
                             //push to venueList array
-                            $scope.venueList.push({name: venue.name, id:venue.id, location:location});
+                            $scope.venueList.push({name: venue.name, id:venue.id, street: venue.location.address, location:location});
                         })
 
                         // Tie an array named "venueList" to the scope which is an array of objects.
