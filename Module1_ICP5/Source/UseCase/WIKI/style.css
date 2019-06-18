@@ -1,0 +1,69 @@
+body,html, .wiki-container {
+  width: 100%;
+  height: 100%;
+}
+
+.wiki-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.wiki-search {
+  margin: auto;
+}
+
+.wiki-search .container {
+  max-width: 450px;
+}
+
+.wiki-search h1 {
+  font-size: 58px;
+  color: #444;
+}
+
+.wiki-pages {
+  margin-top: 15px;
+}
+
+.wiki-pages .list-group-item {
+  margin-top: 5px;
+
+}
+
+.wiki-pages .list-group-item a {
+  text-decoration: none;
+  color: #444;
+}
+
+.wiki-pages .list-group-item {
+  padding: 2px 20px;
+  border: none;
+  border-radius: 0px;
+  box-shadow: 0px 0px 2px #ddd;
+  border-left: 5px solid transparent;
+}
+
+.wiki-pages .list-group-item h3 {
+  margin: 10px 0px;
+}
+
+.wiki-pages .list-group-item:hover {
+    border-left: 5px solid #337ab7;
+}
+
+.wiki-container .copy {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+.input-group-addon {
+  cursor: pointer;
+}
+
+.loading {
+  text-align: center;
+  margin: 30px;
+  font-size: 38px;
+}

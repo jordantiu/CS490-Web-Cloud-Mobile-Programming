@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Translate" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Translator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <style>
+        div {
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+
+        textarea {
+            width: 98%;
+            min-height: 50px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        button {
+            color: white;
+            background: #3F95FA;
+            border-radius: 5px;
+            padding: 10px 20px;
+            border: #5b5b5b solid 1px;
+            font-weight: 400;
+            font-size: 14px;
+        }
+
+        .heading {
+            margin-top: 25px;
+            margin-bottom: 0;
+        }
+
+        .translator {
+            font-size: 40px;
+            font-weight: 900;
+        }
+
+        .poweredBy {
+            font-weight: 900;
+            color: #3F95FA;
+        }
+
+    </style>
+</head>
+
+<body class="body" ng-controller="Ctrl" style="width: 100%">
+
+<div class="heading">
+    <span class="translator">Translator      </span> <br>
+    <span class="poweredBy">Powered By Yandex</span>
+</div>
+<hr>
+
+<div style="margin-top: 25px">
+    <label for="lang-dropdown">Select Languages:</label>
+    <select id="lang-dropdown"></select>
+</div>
+<br>
+
+<table>
+    <tr>
+        <td style="width: 50%">
+            <div id="input-container">
+                <label>Text to translate:<br>
+                    <textarea id="text-to-translate" placeholder="Insert text to translate"></textarea>
+                </label>
+            </div>
+        </td>
+
+        <td style="width: 50%">
+            <div id="output-container">
+                <label>Translated text:<br>
+                    <textarea placeholder="Translated text will appear here">{{translated}}</textarea>
+                </label>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<br>
+<button ng-click="translate()">TRANSLATE</button>
+
+</body>
+</html>

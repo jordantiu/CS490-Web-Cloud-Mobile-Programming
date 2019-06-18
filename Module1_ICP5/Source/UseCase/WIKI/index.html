@@ -1,0 +1,47 @@
+<html>
+<head>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="wiki-container" ng-app="wikiApp" ng-controller="wikiCtrl">
+    <div class="wiki-search">
+        <div class="container text-center">
+            <h1><i class="fa fa-wikipedia-w"></i></h1>
+            <small><em>ANGULAR JS EXAMPLE </em></small>
+            <form ng-submit="submit()">
+                <div class="input-group">
+                    <input type="text" class="form-control" ng-model="searchText" placeholder="Search..">
+                    <div ng-click="submit()" type="submit" class="input-group-addon btn-primary">
+                        <i class="fa fa-search"></i>
+                    </div>
+                </div>
+            </form>
+
+            <div class="alert alert-default" ng-show="errorMessage">{{errorMessage}}</div>
+        </div>
+        <div ng-if="isLoading" class="loading">
+            <i class="fa fa-spinner fa-pulse"></i>
+        </div>
+    </div>
+
+    <div class="container wiki-pages" ng-show="pages">
+        <ul class="list-group">
+            <div ng-repeat="page in pages">
+                <li class="list-group-item">
+                    <a ng-href="{{page.page}}" target="_blank" class="btn-block">
+                        <h3>{{page.title}}</h3>
+                        <p>{{page.body}}</p>
+                    </a>
+                </li>
+            </div>
+        </ul>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
