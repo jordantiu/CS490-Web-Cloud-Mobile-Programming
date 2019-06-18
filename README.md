@@ -17,6 +17,8 @@ ICP2: https://github.com/jordantiu/CS490-Web-Cloud-Mobile-Programming/tree/maste
 ICP3: https://github.com/jordantiu/CS490-Web-Cloud-Mobile-Programming/tree/master/Module1_ICP3/Source
 
 ICP4: https://github.com/jordantiu/CS490-Web-Cloud-Mobile-Programming/tree/master/Module1_ICP4
+
+ICP5: https://github.com/jordantiu/CS490-Web-Cloud-Mobile-Programming/tree/master/Module1_ICP5
  
  ## II. Module 2: Mobile/Cloud Programming
  
