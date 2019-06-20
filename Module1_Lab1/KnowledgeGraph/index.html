@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="KnownledgeGraph" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Restaurants for U</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="ResultsStyles.css">
+
+</head>
+
+<body class="body">
+
+<div ng-controller="Ctrl" style="top: 200px">
+
+    <div class="menu" id="div_SearchContainer">
+        <h1 align="absolute" style="text-align: center; color: #1ab188">Knownledge Graph</h1>
+        <input type="text" id="txt_placeName" placeholder="Enter what you want to search for"
+               style="margin-left: 100px"/>
+        <button id="btn_getReview" ng-click="getVenues()">Get Venues</button>
+    </div>
+    <div id="div_VenueList">
+        <h2 style="text-align: center; color: #1ab188"> Results </h2>
+        <ul>
+            <li ng-repeat="venue in venueList"
+                style="font-size: x-large; color: #5e5e5e; text-align: center; list-style: none">
+                <u>{{venue.name + "(" + venue.id + "): " + venue.location}}</u>
+            </li>
+        </ul>
+
+    </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+
+</html>

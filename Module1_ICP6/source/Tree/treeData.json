@@ -1,0 +1,72 @@
+{
+  "name": "United States",
+  "children": [
+    {
+      "name": "University of Missouri System",
+      "children": [
+        {
+          "name": "University of Missouri"
+        },
+        {
+          "name": "University of Missouri - Kansas City"
+        },
+        {
+          "name": "Missouri University of Science and Technology"
+        },
+        {
+          "name": "University of Missouri–St. Louis"
+        }
+      ]
+    },
+    {
+      "name": "Princeton University",
+      "children": [
+        {
+          "name": "Princeton University: Branch1"
+        },
+        {
+          "name": "Princeton University: Branch2"
+        },
+        {
+          "name": "Princeton University: Branch3"
+        },
+        {
+          "name": "Princeton University: Branch4"
+        }
+      ]
+    },
+    {
+      "name": "Harvard University",
+      "children": [
+        {
+          "name": "Harvard University: Branch1"
+        },
+        {
+          "name": "Harvard University: Branch2"
+        }
+      ]
+    },
+    {
+      "name": "University of Chicago",
+      "children": [
+        {
+          "name": "University of Chicago: Branch1"
+        },
+        {
+          "name": "University of Chicago: Branch2"
+        },
+        {
+          "name": "University of Chicago: Branch3"
+        }
+      ]
+    },
+    {
+      "name": "Yale University",
+      "children": [
+        {
+          "name": "Yale University: Branch1"
+        }
+      ]
+    }
+  ]
+}

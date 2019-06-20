@@ -1,0 +1,94 @@
+[
+  {
+    "name": "United States",
+    "parent": "US",
+    "children": [
+      {
+        "name": "University of Missouri System",
+        "parent": "US",
+        "children": [
+          {
+            "name": "University of Missouri",
+            "parent": "University of Missouri System"
+          },
+          {
+            "name": "University of Missouri - Kansas City",
+            "parent": "University of Missouri System"
+          },
+          {
+            "name": "Missouri University of Science and Technology",
+            "parent": "University of Missouri System"
+          },
+          {
+            "name": "University of Missouri–St. Louis",
+            "parent": "University of Missouri System"
+          }
+        ]
+      },
+      {
+        "name": "Princeton University",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Branch1",
+            "parent": "Princeton University"
+          },
+          {
+            "name": "Branch2",
+            "parent": "Princeton University"
+          },
+          {
+            "name": "Branch3",
+            "parent": "Princeton University"
+          },
+          {
+            "name": "Branch4",
+            "parent": "Princeton University"
+          }
+        ]
+      },
+      {
+        "name": "Harvard University",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Branch1",
+            "parent": "Harvard University"
+          },
+          {
+            "name": "Branch2",
+            "parent": "Harvard University"
+          }
+        ]
+      },
+      {
+        "name": "University of Chicago",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Branch1",
+            "parent": "University of Chicago"
+          },
+          {
+            "name": "Branch2",
+            "parent": "University of Chicago"
+          },
+          {
+            "name": "Branch3",
+            "parent": "University of Chicago"
+          }
+        ]
+      },
+      {
+        "name": "Yale University",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Branch1",
+            "parent": "Yale University"
+          }
+        ]
+      }
+    ]
+  }
+]
