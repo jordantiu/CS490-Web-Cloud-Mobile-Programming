@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Book</title>
+    <link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-image: url(images/lms.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body ng-app="app" ng-controller="addController" >
+<div class="wrap" style="margin-top:10%;width:30%;">
+    <!-- strat-contact-form -->
+    <div class="contact-form" style="width:100%;">
+        <!-- start-form -->
+        <h1>Welcome Librarian!!</h1>
+        <h1>Add book to Library!!</h1>
+        <ul>
+            <li style="width:100%">
+                <input  style="width:100%;" type="text" class="textbox1" name="bookName" placeholder="Book Name" ng-model="bookName" required />
+                <span class="form_hint">Enter Book Name</span>
+            </li>
+            <li style="width:100%;">
+                <input style="width:100%" type="text" class="textbox1" name="aname" ng-model="authorName" placeholder="Author Name" required />
+                <span class="form_hint">Enter Author Name</span>
+
+            </li>
+            <li style="width:100%;">
+                <input style="width:100%" type="text" class="textbox1" name="no" ng-model="noOfCopies" placeholder="Enter No Of Copies" required />
+                <span class="form_hint">Enter No Of Copies</span>
+
+            </li>
+            <li style="width:100%;">
+                <input style="width:100%" type="text" class="textbox1" name="edition" ng-model="edition" placeholder="Edition" required />
+                <span class="form_hint">Edition</span>
+
+            </li>
+            <li style="width:100%;">
+                <input style="width:100%" type="text" class="textbox1" name="ISBN" ng-model="ISBN" placeholder="ISBN# 8 digits[0-9]" required />
+                <span class="form_hint">ISBN#</span>
+
+            </li>
+        </ul>
+        <button ng-click="addbook()"  class="goButton" style="background: darkblue;
+		width: 100%;
+		padding: 2px;
+		font-size: 1.3em;
+		letter-spacing:1px;
+		color: #fff;
+		margin: 10px 0 10px;">Add</button>
+        <button onclick=window.location.href="home.html" class="goButton" style="background: darkblue;
+		width: 100%;
+		padding: 2px;
+		font-size: 1.3em;
+		letter-spacing:1px;
+		color: #fff;
+		margin: 10px 0 10px;">Go Back to Home Page</button>
+
+        <div class="clear"></div>
+        <div class="clear"></div>
+        <!-- end-form -->
+        <!-- start-account -->
+        <div class="clear"></div>
+    </div>
+    <!-- end-contact-form -->
+    <div class="footer">
+
+    </div>
+</div>
+
+
+
+<script type="text/javascript" src="http://code.angularjs.org/1.1.1/angular.js"></script>
+<script type="text/javascript" src="http://code.angularjs.org/1.1.1/angular-resource.js"></script>
+<script type="text/javascript" src="http://code.angularjs.org/1.1.1/angular-sanitize.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="js/app.js"></script>
+
+
+</body>
+</html>

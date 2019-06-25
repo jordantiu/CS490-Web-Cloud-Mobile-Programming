@@ -12,7 +12,8 @@ angular.module('KnownledgeGraph', [])
             if (placeEntered != null && placeEntered != "") {
 
                 //This is the API that gives the list of venues based on the place and search query.
-                var handler = $http.get("https://kgsearch.googleapis.com/v1/entities:search?query="+ placeEntered +"&key=AIzaSyDddRpJCfqYBuisKshdaC3kMZAZQSvZxhI&limit=1&indent=True");
+                var handler = $http.get("https://kgsearch.googleapis.com/v1/entities:search?query="+ placeEntered +"&key=AIzaSyBZ0AB4l_uQ5FtfZFY0tUrKj-W__3zj70w&limit=1&indent=True");
+                // var handler = $http.get("https://kgsearch.googleapis.com/v1/entities:search?query="+ placeEntered +"&key=AIzaSyDddRpJCfqYBuisKshdaC3kMZAZQSvZxhI&limit=1&indent=True");
 
                 handler.success(function (data) {
                     if (data != null) {
@@ -26,3 +27,6 @@ angular.module('KnownledgeGraph', [])
             }
         }
     });
+
+
+// Google API Key: AIzaSyBZ0AB4l_uQ5FtfZFY0tUrKj-W__3zj70w
