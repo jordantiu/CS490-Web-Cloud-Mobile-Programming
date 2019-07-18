@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "621437522989",
+    "firebase_url": "https://fir-db-564a3.firebaseio.com",
+    "project_id": "fir-db-564a3",
+    "storage_bucket": "fir-db-564a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621437522989:android:0e7008247a2b171f",
+        "android_client_info": {
+          "package_name": "edu.umkc.rashmi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621437522989-4qvjpbodg0gumcdf0orc2hkd4t37561p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSyek8BOGNL1qGXfrYqVgPPB_Z3mAXGIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621437522989-4qvjpbodg0gumcdf0orc2hkd4t37561p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

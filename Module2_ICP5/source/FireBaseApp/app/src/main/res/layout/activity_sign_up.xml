@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SignUpActivity"
+
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dp">
+
+                    <EditText
+                        android:id="@+id/etFirstName"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/edittext_top_bg"
+                        android:hint="  First Name"
+                        android:textColorHint="#bbbbbb"
+                        android:drawableRight="@drawable/user"
+                        />
+                    <EditText
+                        android:id="@+id/etLastName"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/edittext_top_bg"
+                        android:hint="  Last Name"
+                        android:textColorHint="#bbbbbb"
+                        android:drawableRight="@drawable/user"
+                        android:layout_marginTop="30dp"
+                        />
+
+             </LinearLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="133dp"
+                android:src="@drawable/takepictureicon1"
+                android:id="@+id/ivUserImage"
+                android:onClick="onClickOfPhotoButton"
+                />
+
+        </GridLayout>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittext_top_bg"
+            android:padding="10dp"
+            android:hint="Email"
+            android:textColorHint="#bbbbbb"
+            android:drawableRight="@drawable/email"
+            android:layout_marginBottom="10dp"/>
+
+
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittext_bottom_bg"
+            android:layout_marginTop="-2dp"
+            android:padding="10dp"
+            android:hint="Password"
+            android:textColorHint="#bbbbbb"
+            android:password="true"
+            android:drawableRight="@drawable/password"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnSingIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="4dp"
+            android:text="Create Account"
+            style="@style/DefaultButtonText"
+            android:background="@drawable/button_default_bg"
+            android:onClick="onSignUp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
